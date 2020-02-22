@@ -21,7 +21,7 @@ public static void main(String[] args) {
 	 while(choice!=4)
 		{
 
-			System.out.println("1.List of diagnostic center and available tests");
+			System.out.println("1.List of available tests");
 			
 			System.out.println("2.delete test");
 			System.out.println("3.exit");
