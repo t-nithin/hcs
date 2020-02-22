@@ -31,7 +31,7 @@ List<Test> list;
 		list.add(t3);
 		list.add(t4);
 		list.add(t5);
-		list.remove(t3);
+		list.remove(t5);
 		DiagnosticCenter d1 = new DiagnosticCenter(1001,"Vijaya",list);
 		DiagnosticCenter d2 = new DiagnosticCenter(1002,"yashoda",list);
 		DiagnosticCenter d3 = new DiagnosticCenter(1003,"keerthi",list);
@@ -42,9 +42,9 @@ List<Test> list;
 		list1.add(d3);
 		list1.add(d4);
 		map.put("vijaya", d1);
-		map.put("yashoda", d1);
-		map.put("keerth", d1);
-		map.put("Tulasi", d1);
+		map.put("yashoda", d2);
+		map.put("keerthi", d3);
+		map.put("Tulasi", d4);
 		
 	}
 	
